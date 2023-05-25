@@ -1,15 +1,14 @@
 header {
   width: 100%;
+  padding: 0 10px;
   color: #222;
   background-color: transparent;
   font-size: 1em;
-  line-height: 1.5;
   box-sizing: border-box
 }
 
 .header {
   width: 100%;
-  padding: 0 10px;
 }
 
 /* - link under - */
@@ -45,7 +44,7 @@ header {
   padding-bottom: 4px;
   text-transform: uppercase;
   font-family: Montserrat, helvetica, arial, sans-serif;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .link:active,
@@ -67,30 +66,22 @@ header {
 }
 
 .link:hover {
-  color: #000
+  color: #000;
 }
 
 .link:hover:before {
-  width: 100%
+  width: 100%;
 }
 
 .link-theme:before {
-  background: #000
+  background: #000;
 }
 
 @media only screen and (min-width:250px) {
   .main {
     padding-top: 150px;
   }
-  .container {
-    width: 80%;
-  }
-  h1 {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 20px;
-  }
+  
 
 .header {
   position: fixed;
@@ -113,7 +104,7 @@ header {
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .header .logo {

@@ -1,0 +1,95 @@
+.second-container {
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 2rem;
+    background: linear-gradient(225deg, #e3e9fc 50%, #f5f6fc, #f0efee);
+    padding-left: 2rem;
+  }
+  
+  .image-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: auto;
+    padding-right: 20px;
+  }
+  
+
+.bike-name{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.heading{
+    font-size: 3.5rem;
+    margin: 15px 0 30px 0;
+}
+
+.btn{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 100px;
+}
+
+.explore-btn{
+    color: #fff;
+    background-color: #000;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.explore-btn:hover{
+    background: #fff;
+    color: #000;
+    transition: .5s;
+}
+
+.ride-btn{
+    display: flex;
+    align-items: center;
+    color: #000;
+    background: transparent;
+    border: none;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.ride-btn:hover > .right-arrow {
+    transform: translate(5px);
+    transition: .3s;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.details-heading{
+    color: #90939e;
+    bottom: 0;
+}
+
+.separator{
+    color: #90939e;
+    opacity: .2;
+    font-size: 30px;
+}
