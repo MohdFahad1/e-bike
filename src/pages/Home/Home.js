@@ -1,12 +1,17 @@
-import React from 'react';
-import bike from '../../Assets/x5mljjjd.png';
-import bike1 from '../../Assets/sqm5x0j8.png';
+import React, { useState } from 'react';
 import './Home.css';
 import { FaAngleRight } from "react-icons/fa";
+import bike from '../../Assets/x5mljjjd.png';
+import bike1 from '../../Assets/sqm5x0j8.png';
+import bikes from '../../Assets/bikes.png'
 
 const Home = () => {
+
+
   return (
     <div id="/" className='home-container'>
+
+    {/* First Component */}
       <div className='second-container'>
         <div className='image-container'>
           <img src={bike} alt="bike" height="630px" width="800px" />
@@ -40,8 +45,7 @@ const Home = () => {
         </div>
       </div>
 
-
-
+      {/* Second Component */}
        <div className='second-container' style={{background:"linear-gradient(70deg,#fcd8c0 10%,#fef8ed 60%,#fefcf5)", gap:"8rem"
        }}>
          <div>
@@ -79,6 +83,22 @@ const Home = () => {
        </div>
 
 
+       {/* Third Component */}
+       <div className='third-container'>
+          <h1>
+            Accelerating Mobility
+          </h1>
+          <p>We make world-class electric mobility solutions that transform how people move</p>
+          <div>
+            <button className='book-btn'>
+              Pre-Book Now
+            </button>
+            <button className='learn-btn'>
+              Learn more
+            </button>
+          </div>
+          <img src={bikes} alt="bikes" />
+       </div>
     </div>
   );
 };

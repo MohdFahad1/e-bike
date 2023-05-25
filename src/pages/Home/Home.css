@@ -15,6 +15,7 @@
     display: flex;
     align-items: flex-end;
   }
+
   
   .text {
     display: flex;
@@ -93,3 +94,87 @@
     opacity: .2;
     font-size: 30px;
 }
+
+
+.third-container{
+    text-align: center;
+    height: 70vh;
+}
+
+.third-container h1 {
+    font-size: 55px;
+    font-weight: 400;
+    margin-top: 100px;
+    background: linear-gradient(to right, #9f6af7, #1ab1e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+
+.third-container p{
+    font-size: 23px;
+    margin: 25px 0;
+    margin-bottom: 40px;
+}
+
+.third-container img{
+    width: 100%;
+    max-width: 100%;
+    margin-top: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.book-btn{
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border: 3px solid #000;
+    height: 50px;
+    width: 150px;
+    border-radius: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.book-btn:hover{
+    background: #000;
+    color: #fff;
+    transition: .5s;
+}
+
+.learn-btn {
+    margin-left: 20px;
+    color: #000;
+    background: transparent;
+    border: none;
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .learn-btn:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(to right, #9f6af7, #1ab1e0);
+    transition: width 0.3s ease;
+  }
+  
+  .learn-btn:hover:before {
+    width: 100%;
+    animation: rainbow 2s linear infinite;
+  }
+  
+  @keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  

@@ -7,7 +7,6 @@ import About from "./pages/About/About"
 import Contact from "./pages/Contact/Contact"
 import Navbar from './components/Navbar/Navbar';
 
-
 function App() {
   return (
     <BrowserRouter>
