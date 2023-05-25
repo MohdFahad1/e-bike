@@ -4,6 +4,7 @@ import { FaAngleRight } from "react-icons/fa";
 import bike from '../../Assets/x5mljjjd.png';
 import bike1 from '../../Assets/sqm5x0j8.png';
 import bikes from '../../Assets/bikes.png'
+import Carousel from '../../components/Carousel/Carousel';
 
 const Home = () => {
 
@@ -98,6 +99,17 @@ const Home = () => {
             </button>
           </div>
           <img src={bikes} alt="bikes" />
+       </div>
+
+       {/* Fourth Component */}
+       <div>
+        <div>
+          <h3>Why Unicus?</h3>
+          <p>Because it’s not about the bike, it’s about the MOVEMENT</p>
+        </div>
+        <div>
+          <Carousel />
+        </div>
        </div>
     </div>
   );
