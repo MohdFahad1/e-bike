@@ -1,21 +1,36 @@
-import React, { useState } from 'react';
+import React, {useState, useEffect} from 'react';
 import './Home.css';
 import { FaAngleRight } from "react-icons/fa";
 import bike from '../../Assets/x5mljjjd.png';
+import bike2 from '../../Assets/u5g5g9k9.png'
 import bike1 from '../../Assets/sqm5x0j8.png';
 import bikes from '../../Assets/bikes.png'
 import Carousel from '../../components/Carousel/Carousel';
 
 const Home = () => {
 
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const isMobileSize = windowWidth <= 468;
 
   return (
     <div id="/" className='home-container'>
 
     {/* First Component */}
-      <div className='second-container'>
+      <div className='first-container'>
         <div className='image-container'>
-          <img src={bike} alt="bike" height="630px" width="800px" />
+        <img src={isMobileSize ? bike2 : bike} alt="bike" className="first-container-image" height="630px" width="800px" />
         </div>
         <div className='text'>
           <span className='bike-name'>Unicus Mobility 4 ST</span>
@@ -47,10 +62,9 @@ const Home = () => {
       </div>
 
       {/* Second Component */}
-       <div className='second-container' style={{background:"linear-gradient(70deg,#fcd8c0 10%,#fef8ed 60%,#fefcf5)", gap:"8rem"
-       }}>
+       <div className='second-container'>
          <div>
-           <img src={bike1} alt="bike1" height="500px" width="800px"style={{paddingBottom:"60px"}}/>
+           <img src={bike1} alt="bike1" className='second-container-image'/>
          </div>
          <div>
            <div className='text'>

@@ -1,4 +1,4 @@
-.second-container {
+.first-container {
     display: flex;
     height: 100vh;
     align-items: flex-end;
@@ -7,7 +7,28 @@
     background: linear-gradient(225deg, #e3e9fc 50%, #f5f6fc, #f0efee);
     padding-left: 2rem;
   }
+
+  .first-container-image{
+    height: 630px;
+    width: 800px;
+  }
+
+  .second-container{
+    background:linear-gradient(70deg,#fcd8c0 10%,#fef8ed 60%,#fefcf5);display: flex;
+    height: 100vh;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 8rem;
+    padding-left: 2rem;
+  }
   
+
+  .second-container-image{
+    height: 500px;
+    width: 800px;
+    padding-bottom: 60px;
+  }
+
   .image-container {
     position: absolute;
     left: 0;
@@ -178,3 +199,154 @@
     100% { background-position: 0% 50%; }
   }
   
+
+  @media screen and (max-width:468px) {
+
+    .first-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        background: linear-gradient(225deg, #e3e9fc 50%, #f5f6fc, #f0efee);
+        padding-left: 0;
+        padding-top: 90px;
+      }
+
+    .first-container-image{
+        height: 220px;
+        width: 380px;
+    }
+
+    .image-container {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        display: flex;
+        align-items: flex-end;
+      }
+
+    .second-container{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        height: 95vh;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        background: linear-gradient(225eg, #e3e9fc 50%, #f5f6fc, #f0efee);
+        padding-left: 0;
+        height: 73vh;
+        gap: 0;
+      }
+
+      .second-container-image{
+        height: 200px;
+        width: 380px;
+        margin-top: 40px;
+        padding-bottom: 0;
+      }
+    
+      .text {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 280px;
+        margin-top: 0;
+        padding-right: 0px;
+      }
+      
+    
+    .bike-name{
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-top: 0;
+    }
+    
+    .heading{
+        font-size: 28px;
+        margin: 5px 0 25px 0;
+    }
+
+    .btn{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 1rem;
+        margin-bottom: 30px;
+    }
+    
+    .explore-btn{
+        height: 40px;
+        width: 120px;
+        font-size: 13px;
+    }
+    
+    .ride-btn{
+        height: 40px;
+        width: 120px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    
+    .details{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    .details-heading{
+        font-size: 13px;
+        color: #90939e;
+        bottom: 0;
+    }
+    .details-sub-heading{
+        font-size: 13px;
+    }
+    
+
+
+
+
+
+
+    .third-container{
+        height: 50vh;
+        padding: 0 10px;
+    }
+    .third-container h1{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+    .third-container p{
+        font-size: 18px;
+        margin: 25px 0;
+    }
+    .book-btn{
+        color: #000;
+        background-color: #fff;
+        border: none;
+        border: 3px solid #000;
+        height: 40px;
+        width: 130px;
+        border-radius: 40px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+    
+    .learn-btn {
+        margin-left: 15px;
+        color: #000;
+        background: transparent;
+        border: none;
+        height: 25px;
+        width: 100px;
+        font-size: 13px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+      }
+  }
