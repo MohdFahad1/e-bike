@@ -50,7 +50,7 @@ const About = () => {
       <div>
           <img src={team} alt="team" />
         </div>
-        <div className='values'>
+        <div className='beliefs'>
           <h1>Values & Beliefs</h1>
           <p>Unicus is reinventing the mobility landscape. We are transforming so people can thrive in the new mobility world. Our team is acquiring leading companies, hiring the best talent and inventing and perfecting solutions to problems we cannot find elsewhere.
           <br />
@@ -60,13 +60,13 @@ const About = () => {
         </div>
       </div>
     {/* Fourth Component */}
-      <div className='abour-fourth-container'>
+      <div className='about-fourth-container'>
         <div className='people'>
           <h1>People</h1>
           <p>We are a team of dreamers and doers with a vision for a future that is driven by clean energy.</p>
         </div>
+        <h1 className='founder-heading'>Founders</h1>
         <div className='founders'>
-          <h1>Founders</h1>
           <Card />
         </div>
       </div>

@@ -1,0 +1,14 @@
+.card{
+    margin-bottom: 40px;
+}
+
+.card img{
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.card h4{
+    font-size: 20px;
+    font-weight: 450;
+    color: #5a5a5a;
+}

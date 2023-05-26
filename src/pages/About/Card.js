@@ -1,9 +1,9 @@
 import React from 'react';
 import './Card.css';
-import avatar1 from '../../Assets/avatar1.jpg';
-import avatar2 from '../../Assets/avatar2.jpg';
-import avatar3 from '../../Assets/avatar3.jpg';
-import avatar4 from '../../Assets/avatar4.jpg';
+import avatar1 from '../../Assets/avatar1.png';
+import avatar2 from '../../Assets/avatar2.png';
+import avatar3 from '../../Assets/avatar3.png';
+import avatar4 from '../../Assets/avatar4.png';
 
 const Card = () => {
   const data = [
@@ -15,19 +15,19 @@ const Card = () => {
     },
     {
       id: 2,
-      Name: "John Doe",
+      Name: "Martha Chase",
       post: "Co-Founder",
       image: avatar2,
     },
     {
       id: 3,
-      Name: "John Doe",
+      Name: "Angela Smith",
       post: "Co-Founder & CTO",
       image: avatar3,
     },
     {
       id: 4,
-      Name: "John Doe",
+      Name: "Justin Miller",
       post: "Co-Founder & COO",
       image: avatar4,
     },
@@ -37,9 +37,15 @@ const Card = () => {
     <>
       {data.map(({ id, Name, post, image }) => (
         <div key={id}>
-          <img src={image} alt="images" />
-          <h1>{Name}</h1>
-          <h4>{post}</h4>
+          <div className='card'>
+          <div>
+            <img src={image} alt="images"/>
+          </div>
+          <div>
+            <h1>{Name}</h1>
+            <h4>{post}</h4>
+          </div>
+          </div>
         </div>
       ))}
     </>

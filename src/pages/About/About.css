@@ -41,12 +41,16 @@
 
 .about-second-container{
     display: flex;
+    height: 100vh;
     justify-content: space-between;
+    padding-right: 80px;
 }
 
 .about-second-container img{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 100px;
 }
 
 .about-second-text-container{
@@ -92,12 +96,12 @@
     padding: 100px 0;
 }
 
-.values{
+.beliefs{
     margin-bottom: 100px;
     padding: 0 80px 0 50px;
 }
 
-.values h1{
+.beliefs h1{
     width: 100%;
     font-size: 50px;
     font-weight: 500;
@@ -106,22 +110,23 @@
     -webkit-text-fill-color: transparent;
 }
 
-.values p{
+.beliefs p{
     color: #A1A1A1;
     font-size: 18px;
     margin-top: 20px;
 }
 
 .about-third-container img{
-    height: 500px;
+    height: 450px;
     width: 700px;
     border-radius: 20px;
     margin-left: 50px;
 }
 
-.abour-fourth-container{
+.about-fourth-container{
     padding: 50px 50px;
 }
+
 
 .people{
     display: flex;
@@ -143,7 +148,21 @@
     font-size: 20px;
 }
 
+
+.founder-heading{
+    padding: 150px 0 0 50px;
+    width: 80%;
+    font-size: 40px;
+    font-weight: 400;
+    background: linear-gradient(to right, #9f6af7, #1ab1e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;    
+
+}
+
 .founders{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin-top: 80px;
     padding: 0 50px;
 }
