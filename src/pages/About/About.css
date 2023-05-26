@@ -1,4 +1,4 @@
-.about-first-container{
+.about-first-container {
     background: #000;
     text-align: center;
     display: flex;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.about-first-container h1{
+.about-first-container h1 {
     width: 80%;
     font-size: 80px;
     font-weight: 400;
@@ -17,13 +17,13 @@
     -webkit-text-fill-color: transparent;
 }
 
-.about-first-container p{
+.about-first-container p {
     font-size: 23px;
     margin: 15px 0;
     color: #F9F9F9;
 }
 
-.about-first-container img{
+.about-first-container img {
     width: 100%;
     max-width: 100%;
     margin-top: 20px;
@@ -31,77 +31,77 @@
     display: inline-block;
 }
 
-
-.line{
-    width: 130px;
-    height: 4px;
-    background: linear-gradient(to right, #fae9dd, #f8a390 50%, #7f6dff);
-    margin-bottom: 10px;
-}
-
-.about-second-container{
+.about-second-container {
     display: flex;
     height: 100vh;
     justify-content: space-between;
     padding-right: 80px;
 }
 
-.about-second-container img{
+
+.line {
+    width: 130px;
+    height: 4px;
+    background: linear-gradient(to right, #fae9dd, #f8a390 50%, #7f6dff);
+    margin-bottom: 10px;
+}
+
+.about-second-container img {
     width: 500px;
     height: 500px;
     border-radius: 20px;
     margin-top: 100px;
 }
 
-.about-second-text-container{
+.about-second-text-container {
     display: flex;
     flex-direction: column;
     padding: 100px 150px 0 100px;
 }
 
-.about-us h1{
+.about-us h1 {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-.about-us h3{
+.about-us h3 {
     font-weight: 500;
     font-size: 22px;
     margin-bottom: 20px;
 }
 
-.about-us p{
+.about-us p {
     color: #A1A1A1;
 }
 
-.achievement{
+.achievement {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
     margin-top: 50px;
 }
 
-.achievement h1{
+.achievement h1 {
     font-weight: 450;
     font-size: 60px;
 }
 
-.achievement span{
+.achievement span {
     color: #A1A1A1;
 }
 
-.about-third-container{
+.about-third-container {
     display: flex;
     background: #000;
     padding: 100px 0;
 }
 
-.beliefs{
+.beliefs {
     margin-bottom: 100px;
     padding: 0 80px 0 50px;
 }
 
-.beliefs h1{
+.beliefs h1 {
     width: 100%;
     font-size: 50px;
     font-weight: 500;
@@ -110,31 +110,31 @@
     -webkit-text-fill-color: transparent;
 }
 
-.beliefs p{
+.beliefs p {
     color: #A1A1A1;
     font-size: 18px;
     margin-top: 20px;
 }
 
-.about-third-container img{
+.about-third-container img {
     height: 450px;
     width: 700px;
     border-radius: 20px;
     margin-left: 50px;
 }
 
-.about-fourth-container{
+.about-fourth-container {
     padding: 50px 50px;
 }
 
 
-.people{
+.people {
     display: flex;
     justify-content: space-around;
     padding: 0 50px;
 }
 
-.people h1{
+.people h1 {
     width: 80%;
     font-size: 50px;
     font-weight: 500;
@@ -143,35 +143,233 @@
     -webkit-text-fill-color: transparent;
 }
 
-.people p{
+.people p {
     color: #A1A1A1;
     font-size: 20px;
 }
 
 
-.founder-heading{
-    padding: 150px 0 0 50px;
+.founder-heading {
+    padding: 100px 0 0 50px;
     width: 80%;
     font-size: 40px;
     font-weight: 400;
     background: linear-gradient(to right, #9f6af7, #1ab1e0);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
+    -webkit-text-fill-color: transparent;
 
 }
 
-.founders{
+.founders {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 80px;
     padding: 0 50px;
 }
 
-.founders h1{
+.founders h1 {
     width: 80%;
     font-weight: 450;
     font-size: 40px;
     background: linear-gradient(to right, #9f6af7, #1ab1e0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+.about-fifth-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.about-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.about-image-container img {
+    height: 500px;
+    width: 700px;
+    border-radius: 20px;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the opacity (0.5) to your preference */
+    border-radius: 20px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.text-overlay h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-overlay p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-overlay button {
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.text-overlay button:hover {
+    background: #fff;
+    color: #000;
+    transition: .5s;
+}
+
+
+@media screen and (max-width:468px) {
+    .about-first-container{
+        padding-bottom: 30px;
+    }
+    .about-first-container h1 {
+        font-size: 30px;
+    }
+
+    .about-first-container p {
+        font-size: 15px;
+        width: 80%;
+    }
+
+    .about-second-container {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-right: 10px;
+    }
+
+    .about-second-container img {
+        display: none;
+    }
+
+    .about-second-text-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+    .achievement {
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+        margin-top: 40px;
+    }
+    
+    .achievement h1 {
+        font-weight: 450;
+        font-size: 30px;
+    }
+    .achievement span{
+        font-size: 15px;
+    }
+
+    .about-third-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 70px 0 10px 0;
+    }
+
+    .beliefs{
+        margin-top: 20px;
+        padding: 0 25px;
+    }
+    
+    .about-third-container img {
+        height: 200px;
+        width: 300px;
+    }
+    
+    .beliefs p {
+        font-size: 18px;
+    }
+
+    .about-fourth-container {
+        padding: 50px 0;
+    }
+    
+    
+    .people {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    
+    .people p {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .founders {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 30px;
+    }
+    
+    .founder-heading {
+        padding: 50px 0 0 20px;
+    }
+
+
+    .about-fifth-container {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 50px;
+    }
+    
+    .about-image-container img {
+        height: 240px;
+        width: 360px;
+        border-radius: 20px;
+    }
+    
+    .text-overlay h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .text-overlay p {
+        width: 300px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .text-overlay button {
+        font-size: 12px;
+        padding: 14px;
+        border-radius: 50px;
+        background-color: #000;
+        color: white;
+        border: none;
+        border: 2px solid #fff;
+        cursor: pointer;
+    }
 }

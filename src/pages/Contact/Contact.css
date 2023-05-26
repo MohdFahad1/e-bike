@@ -95,7 +95,7 @@
   
   .list-item {
     line-height: 4;
-    color: #aaa;
+    color: #fff;
   }
 
   .contact-icon{
@@ -105,7 +105,7 @@
   .contact-text {
     font: 300 18px 'Lato', sans-serif;
     letter-spacing: 1.9px;
-    color: #bbb;
+    color: #fff;
   }
   
   .place {
