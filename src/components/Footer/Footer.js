@@ -6,7 +6,7 @@ import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer">
-      <div style={{display:"flex", justifyContent:"space-between"}}>
+      <div className="footer-heading">
         <h1>Unicus Mobility</h1>
         <div className="footer-texts">
           <div className="footer-links">
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer-bottom-content'>
-        <div>
+        <div className='footer-icon-links'>
           <a href="https://www.linkedin.com/company/unicusmobility/" target='_blank' without rel="noreferrer" >
             <FaLinkedinIn className='icon-link'/>
           </a>
