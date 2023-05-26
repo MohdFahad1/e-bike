@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedinIn, FaTwitter, FaPaperPlane, FaMapMarkedAlt, FaPhone, FaRegEnvelope } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaTwitter, FaPaperPlane, FaMapMarkedAlt, FaPhone, FaRegEnvelope } from "react-icons/fa";
 import './Contact.css';
 
 const ContactPage = () => {
@@ -53,7 +53,7 @@ const ContactPage = () => {
           <ul className="social-media-list">
             <li>
               <a href="#" >
-                <FaGithub className='social-icon'/>
+                <FaInstagram className='social-icon'/>
               </a>
             </li>
             <li>
