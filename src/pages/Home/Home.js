@@ -10,6 +10,7 @@ import meeting2 from '../../Assets/home-meeting.jpg'
 import meeting3 from '../../Assets/meeting3.jpeg'
 
 const Home = () => {
+  
 
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -38,7 +39,7 @@ const Home = () => {
           <span className='bike-name'>Unicus Mobility 4 ST</span>
           <h2 className='heading'>Step through to <br /> a new colorway</h2>
           <div className='btn'>
-            <button className='explore-btn'>Explore</button>
+            <Link to="/product"><button className='explore-btn'>Explore</button></Link>
             <button className='ride-btn'>Book a test ride <FaAngleRight className='right-arrow' /></button>
           </div>
           <div className='details'>
@@ -73,7 +74,7 @@ const Home = () => {
              <span className='bike-name'>Unicus 4</span>
              <h2 className='heading'>Step over to <br /> the agile ride</h2>
              <div className='btn'>
-               <button className='explore-btn'>Explore</button>
+             <Link to="/product"><button className='explore-btn'>Explore</button></Link>
                <button className='ride-btn'>Book a test ride <FaAngleRight className='right-arrow' /></button>
              </div>
              <div className='details'>
@@ -107,9 +108,9 @@ const Home = () => {
           </h1>
           <p>We make world-class electric mobility solutions that transform how people move</p>
           <div>
-            <button className='book-btn'>
+            <Link to="/product"><button className='book-btn'>
               Pre-Book Now
-            </button>
+            </button></Link>
             <button className='learn-btn'>
               Learn more
             </button>
@@ -124,7 +125,7 @@ const Home = () => {
           <img src={meeting2} alt="join us"/>
           <div className='home-text-overlay'>
             <h1>About Us</h1>
-            <p>Join a team of explorers setting sail on the vast sea of technology.</p>
+            <p>We are just nature nerds and technophiles who provide transportation solutions.</p>
             <Link to="/about"><button>Read More</button></Link>
           </div>
           <div className='home-image-overlay'></div>

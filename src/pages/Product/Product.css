@@ -1,7 +1,7 @@
 #product {
     padding: 120px 0 80px 100px;
-    background: #fff;
-    color: #000;
+    background: #0B0B0B;
+    color: #fff;
 }
 
 .products-heading {
@@ -11,6 +11,21 @@
     background: linear-gradient(to right, #9f6af7, #1ab1e0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.products-para{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    width: 1300px;
+    margin-bottom: 80px;
+}
+
+.products-para p{
+    color: #a1a1a1;
+    font-size: 18px;
+    padding-top: 20px;
+    border-top: 2px solid #966FF6;
 }
 
 .products-main-container {
@@ -26,12 +41,15 @@
 
 .filter-container input {
     border: none;
-    border: 2px solid #000;
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
     padding: 10px 10px 10px 20px;
     font-size: 15px;
     width: 300px;
     margin-right: 50px;
 }
+
 
 .filter-container select {
     padding: 10px 10px;
@@ -42,8 +60,8 @@
 
 .product-card {
     height: 600px;
+    background-color: #222222;
     width: 560px;
-    box-shadow: rgba(122, 121, 121, 0.1) -10px 10px 20px, rgba(122, 121, 121, 0.1) 0px 8px 24px, rgba(122, 121, 121, 0.1) 0px 16px 56px;
     padding: 20px;
     margin-top: 30px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -115,12 +133,33 @@
     width: 520px;
 }
 
+.last-para{
+    border-top: 2px solid #9f6af7;
+    width: 1200px;
+    color: #a1a1a1;
+    margin-top: 80px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
 @media screen and (max-width:468px) {
     #product {
         padding: 120px 0 80px 8px;
         width: 100%;
-        background: #fff;
-        color: #000;
+        background: #000;
+        color: #fff;
+    }
+
+
+    .products-para{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .last-para{
+        font-size: 15px;
+        width: 100%;
     }
 
     .products-heading {

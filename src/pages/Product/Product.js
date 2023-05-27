@@ -225,7 +225,17 @@ const Product = () => {
   return (
     <>
       <div id="product">
-      <h1 className='products-heading'>Our Products</h1>
+        <h1 className='products-heading'>Our Products</h1>
+        <div className='products-para'>
+        <p>"Welcome to our e-bike products page! Discover a new way to ride with our innovative and eco-friendly electric bikes. Our e-bikes combine cutting-edge technology with sleek design to deliver an exceptional riding experience.</p>
+
+        <p>Experience effortless pedaling with our powerful electric motors that provide smooth and reliable assistance, making uphill climbs and long distances a breeze. Our e-bikes are equipped with high-quality batteries, ensuring long-lasting performance and allowing you to explore further without worrying about running out of power.</p>
+
+        <p>Safety is our top priority, which is why our e-bikes feature advanced braking systems, responsive handling, and integrated LED lights for enhanced visibility. With adjustable settings and intuitive controls, you can easily customize your ride to match your preferences and riding conditions.</p>
+
+        <p>Whether you're commuting to work, exploring the city, or going off-road, our e-bikes are designed to adapt to your lifestyle. Choose from a range of models, including urban commuters, mountain bikes, and foldable options, all built with durability and comfort in mind. Our ergonomic designs, cushioned seats, and smooth suspension systems ensure a comfortable ride, even on challenging terrains.</p>
+
+        </div>
         <div className="filter-container">
           <input
             type="text"
@@ -254,6 +264,7 @@ const Product = () => {
             );
           })}
         </div>
+        <p className='last-para'>Join the e-bike revolution and experience the freedom, convenience, and joy of riding an electric bike. Browse our selection below and find the perfect e-bike to suit your style and needs. Elevate your cycling experience with our exceptional e-bikes today!"</p>
       </div>
     </>
   );
