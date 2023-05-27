@@ -225,6 +225,7 @@ const Product = () => {
   return (
     <>
       <div id="product">
+      <h1 className='products-heading'>Our Products</h1>
         <div className="filter-container">
           <input
             type="text"
@@ -259,16 +260,3 @@ const Product = () => {
 };
 
 export default Product;
-
-
-// function sortEBikesByPrice(sortOrder) {
-//   if (sortOrder === "asc") {
-//     eBikes.sort((a, b) => a.price - b.price);
-//   } else if (sortOrder === "desc") {
-//     eBikes.sort((a, b) => b.price - a.price);
-//   }
-// }
-
-// // Usage example: Sort eBikes by price in ascending order
-// sortEBikesByPrice("asc");
-// console.log(eBikes);

@@ -1,11 +1,13 @@
 import React, {useState, useEffect} from 'react';
 import './Home.css';
+import {Link} from "react-router-dom"
 import { FaAngleRight } from "react-icons/fa";
 import bike from '../../Assets/x5mljjjd.png';
 import bike2 from '../../Assets/u5g5g9k9.png'
 import bike1 from '../../Assets/sqm5x0j8.png';
 import bikes from '../../Assets/bikes.png'
-import Carousel from '../../components/Carousel/Carousel';
+import meeting2 from '../../Assets/home-meeting.jpg'
+import meeting3 from '../../Assets/meeting3.jpeg'
 
 const Home = () => {
 
@@ -116,14 +118,29 @@ const Home = () => {
        </div>
 
        {/* Fourth Component */}
-       <div>
-        <div>
-          <h3>Why Unicus?</h3>
-          <p>Because it’s not about the bike, it’s about the MOVEMENT</p>
+       <div className='fourth-container'>
+       <div className='home-fourth-container'>
+        <div className='meeting-image'>
+          <img src={meeting2} alt="join us"/>
+          <div className='home-text-overlay'>
+            <h1>About Us</h1>
+            <p>Join a team of explorers setting sail on the vast sea of technology.</p>
+            <Link to="/about"><button>Read More</button></Link>
+          </div>
+          <div className='home-image-overlay'></div>
         </div>
-        <div>
-          <Carousel />
+      </div>
+      <div className='home-fourth-container'>
+        <div className='meeting-image'>
+          <img src={meeting3} alt="join us"/>
+          <div className='home-text-overlay'>
+            <h1>Join Us</h1>
+            <p>Join a team of explorers setting sail on the vast sea of technology.</p>
+            <button>Join Us</button>
+          </div>
+          <div className='home-image-overlay'></div>
         </div>
+      </div>
        </div>
     </div>
   );
