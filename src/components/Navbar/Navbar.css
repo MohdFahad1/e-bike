@@ -1,38 +1,37 @@
 header {
   position: sticky;
   width: 100%;
-  color: #222;
-  background-color: transparent;
   font-size: 1em;
   box-sizing: border-box;
-  background-color: #fff;
-  /* box-shadow: 0px 0px 21px 0px #888888; */
   z-index: 999;
-  background-color: transparent;
-  transition: background-color 0.2s ease-in-out;
+  box-shadow: 0px 0 21px 0 #888888;
 }
 
-.header.scrolled {
-  background-color: #fff;
-  box-shadow: 0 0 21px 0 #888888;
-}
 
 .header {
   width: 100%;
   position: sticky;
+  background-color: #000;
 }
 
 .logo{
+  color: #fff;
   margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: italic;
 }
 
 .header li a{
+  color: #fff;
   margin-right: 25px;
+  font-weight: 500;
 }
 
 /* - link under - */
 
 .link-arrow:after {
+  color: #fff;
   content: '';
   background-size: 100% 100%;
   width: 16px;
@@ -57,12 +56,13 @@ header {
 }
 
 .link {
+  color: #fff;
   display: inline-block;
   position: relative;
   border: none;
   padding-bottom: 4px;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .link:active,
@@ -72,11 +72,12 @@ header {
 }
 
 .link:before {
+  color: #fff;
   content: '';
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #000;
+  background: #fff;
   width: 0;
   height: 2px;
   -webkit-transition: all .4s cubic-bezier(.35, 1, .33, 1);
@@ -92,7 +93,7 @@ header {
 }
 
 .link-theme:before {
-  background: #000;
+  background: #fff;
 }
 
 @media only screen and (min-width:250px) {
@@ -102,6 +103,7 @@ header {
   
 
 .header {
+  color: #000;
   position: fixed;
   width: 100%;
   padding: 20px 0;
@@ -115,7 +117,7 @@ header {
 }
 
 .header li a {
-  color: #000;
+  color: #fff;
   padding: 20px 20px 4px 20px;
   text-decoration: none;
 }
@@ -126,7 +128,7 @@ header {
 }
 
 .header .logo {
-  color: #000;
+  color: #fff;
   display: block;
   float: left;
   font-size: 2em;
@@ -145,6 +147,7 @@ header {
 /* menu icon */
 
 .header .menu-icon {
+  color: #000;
   cursor: pointer;
   /* display: inline-block; */
   float: right;
@@ -154,7 +157,8 @@ header {
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: #fff;
+  color: #fff;
   display: block;
   height: 2px;
   position: relative;
@@ -164,7 +168,7 @@ header {
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: #fff;
   content: '';
   display: block;
   height: 100%;
@@ -211,12 +215,14 @@ header {
 /* section */
 
 .section {
+  color: #fff;
   overflow: hidden;
   margin: auto;
   max-width: 1400px;
 }
 
-.section a {
+.section a{
+  color: #fff;
   position: relative;
   float: left;
   width: 100%;
@@ -233,7 +239,7 @@ header {
   left: 5%;
   bottom: 5%;
   font-size: 2em;
-  text-shadow: 1px 1px 0 #000;
+  text-shadow: 1px 1px 0 #fff;
 }
 
 .section-split a span {
