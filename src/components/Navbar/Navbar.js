@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <header className="header">
-        <Link to="/" className="logo">Unicus Mobility</Link>
+        <Link to="/" className="logo">{"<Unicus Mobility />"}</Link>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label className="menu-icon" htmlFor="menu-btn">
           <span className="navicon"></span>

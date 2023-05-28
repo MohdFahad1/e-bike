@@ -228,13 +228,12 @@
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    /* Adjust the opacity (0.5) to your preference */
     border-radius: 20px;
 }
 
 .home-text-overlay {
     position: absolute;
-    top: 70%;
+    top: 65%;
     left: 38%;
     transform: translate(-50%, -50%);
     color: white;
@@ -287,8 +286,8 @@
   animation: rainbow 2s linear infinite;
 }
 
-  @media screen and (max-width:468px) {
 
+  @media (max-width:920px){
     .first-container {
         text-align: center;
         display: flex;
@@ -464,5 +463,7 @@
           margin-bottom: 20px;
           color: #dcdcdc;
       }
-        
   }
+
+  
+
