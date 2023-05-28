@@ -1,0 +1,100 @@
+.product-details-main{
+    width: 100%;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+.product-details-main h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 20px 0 50px 0;
+    background: linear-gradient(to right, #9f6af7, #1ab1e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product-details{
+    order: 2px solid red;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    background-color: #222222;
+    color: #fff;
+    padding: 50px;
+    width:1200px;
+    height: 600px;
+    box-shadow: rgba(163, 163, 163, 0.3) 0px 8px 24px, rgba(163, 163, 163, 0.3) 0px 16px 48px, rgba(163, 163, 163, 0.3) 0px 24px 72px;
+}
+
+.product-details h1{
+    font-size: 50px;
+    font-weight: 400;
+    background: linear-gradient(to right, #9f6af7, #1ab1e0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.product-details img{
+    width: 450px;
+    height: 350px;
+}
+
+.product-details span{
+    font-size: 22px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.product-details p{
+    margin: 8px 0;
+}
+
+.go-back-btn{
+    border: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 20px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 60px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.go-back-btn:hover{
+    color: #000;
+    background-color: #ffff;
+    transition: .5s;
+}
+
+@media screen and (max-width:920px) {
+    .product-details-main h2{
+        font-size: 40px;
+        font-weight: 400;
+        margin: 20px 0 50px 0;
+        background: linear-gradient(to right, #9f6af7, #1ab1e0);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .product-details{
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        width: 390px;
+        padding: 20px;
+    }
+
+    .product-details img{
+        height: 200px;
+        width: 300px;
+    }
+    .product-details span{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}

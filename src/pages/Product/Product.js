@@ -6,7 +6,7 @@ import './Product.css';
 import {data} from './data'
 
 
-const Product = () => {
+const Product = ({ onProductClick }) => {
 
   useEffect(() => {
     AOS.init();
@@ -34,6 +34,10 @@ const Product = () => {
 
   const handleSortByChange = (event) => {
     setSortBy(event.target.value);
+  };
+
+  const handleClick = (productId) => {
+    onProductClick(productId);
   };
 
   const isMobileView = window.innerWidth <= 468;
@@ -78,7 +82,7 @@ const Product = () => {
                 <h1>{name}</h1>
                 <p>{description}</p>
                 <div style={{ display: "flex", justifyContent: "space-between" }}>
-                  <Link to={'/product/${id}'}><button>know more</button></Link>
+                  <Link to={`/product/${id}`}><button onClick={() => handleClick(id)}>know more</button></Link>
                   <h4>₹ {price}</h4>
                 </div>
               </div>
