@@ -36,7 +36,7 @@ function ProductDetails({ data }) {
   return (
     <>
     <div className='product-details-main'>
-    <h2>Product Details</h2>
+    <h2 data-aos="fade-up" data-aos-duration="1000">Product Details</h2>
       <div className='product-details'>
         <div><img src={product.picture} data-aos={isMobileSize? "fade-up" : "fade-right"} data-aos-duration="1200"/></div>
         <div data-aos="fade-up" data-aos-duration="1200"><h1>{product.name}</h1>
