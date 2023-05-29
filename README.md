@@ -15,9 +15,10 @@ It contains Home page, Products Page, Product Details page, About page and a con
 
 ![Screenshot 2023-05-29 222753](https://github.com/MohdFahad1/e-bike/assets/98938137/1db46243-bcc4-44ff-bbc5-1589dd04040e)
 
+![Screenshot 2023-05-29 222810](https://github.com/MohdFahad1/e-bike/assets/98938137/9d180c45-afb2-420a-bb13-3dc4d00d9196)
+
 
 ## Products Page
-![Screenshot 2023-05-29 222810](https://github.com/MohdFahad1/e-bike/assets/98938137/9d180c45-afb2-420a-bb13-3dc4d00d9196)
 
 ![Screenshot 2023-05-29 222829](https://github.com/MohdFahad1/e-bike/assets/98938137/5cf3c620-8fb5-4a6f-ba93-3eb1da7b9bde)
 
