@@ -29,6 +29,7 @@ It contains Home page, Products Page, Product Details page, About page and a con
 
 
 ## Product Details Page
+
 ![Screenshot 2023-05-29 223307](https://github.com/MohdFahad1/e-bike/assets/98938137/635847af-fc42-448e-b916-5d8b2c433904)
 
 
@@ -48,23 +49,29 @@ It contains Home page, Products Page, Product Details page, About page and a con
 
 
 ## Contact Page
+
 ![Screenshot 2023-05-29 223140](https://github.com/MohdFahad1/e-bike/assets/98938137/ae6cd4f4-3cc9-4c36-9c67-ff6e2f9bab05)
 
 
 # Features
 
 • Browse and search for e-bikes
+
 • View detailed information about each e-bike, including specifications, pricing etc.
  
 # Live Demo
  
  This project is hosted on Netlify.
+ 
  [Demo Link](https://unicus-mobility.netlify.app/)
  
  
 # Tools & Tech Used
 
 • React Js
+
 • Javascript
+
 • CSS
+
 • Visual Studio Code
