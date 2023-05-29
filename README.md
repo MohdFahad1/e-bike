@@ -23,12 +23,16 @@ It contains Home page, Products Page, Product Details page, About page and a con
 
 ![Screenshot 2023-05-29 222850](https://github.com/MohdFahad1/e-bike/assets/98938137/2b6e0fa2-3ec8-45af-ab8b-74f97b0f5b02)
 
+![Screenshot 2023-05-29 222908](https://github.com/MohdFahad1/e-bike/assets/98938137/224f9ad6-207b-4bca-8b02-a30ebb77c380)
+
+
+
 ## Product Details Page
 ![Screenshot 2023-05-29 223307](https://github.com/MohdFahad1/e-bike/assets/98938137/635847af-fc42-448e-b916-5d8b2c433904)
 
 
+
 ## About Us Page
-![Screenshot 2023-05-29 222908](https://github.com/MohdFahad1/e-bike/assets/98938137/224f9ad6-207b-4bca-8b02-a30ebb77c380)
 
 ![Screenshot 2023-05-29 222932](https://github.com/MohdFahad1/e-bike/assets/98938137/5543b7ac-036f-4362-beb8-422200aacbb0)
 
@@ -39,6 +43,7 @@ It contains Home page, Products Page, Product Details page, About page and a con
 ![Screenshot 2023-05-29 223050](https://github.com/MohdFahad1/e-bike/assets/98938137/e2c45d91-ce91-49fa-9e34-65e2942086c0)
 
 ![Screenshot 2023-05-29 223104](https://github.com/MohdFahad1/e-bike/assets/98938137/5ba5f05f-04f9-47b5-ba18-0f5698901509)
+
 
 
 ## Contact Page
